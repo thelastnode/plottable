@@ -62,7 +62,8 @@ module.exports = function(grunt) {
     },
     watch: {
       "options": {
-        livereload: true
+        livereload: true,
+        interrupt: true
       },
       "rebuild": {
         "tasks": ["compile"],
